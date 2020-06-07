@@ -93,6 +93,7 @@ nav.scroll {
     color: var(--main-text-color);
     text-shadow: 2px 2px 8px #000;
     animation: fadeUp 1s forwards;
+    opacity: 0;
     animation-delay: 1s;
 }
 
@@ -103,6 +104,7 @@ nav.scroll {
     letter-spacing: 0;
     margin: 0;
     /* transform: rotate(-10deg); */
+    opacity: 0;
     animation: scale 1.5s forwards;
     animation-delay: 1s;
 }
@@ -115,6 +117,7 @@ nav.scroll {
     margin: 10px auto;
     text-shadow: 2px 2px 8px #000;
     /* transform: rotate(-10deg); */
+    opacity: 0;
     animation: fadeUp .4s forwards;
     animation-delay: 1s;
 }
